@@ -53,7 +53,7 @@ above use-case in a shorter way:
 The second line is the equivalent of doing:
 
     (cd ../node-redis; npm link)
-    npm link node-redis
+    npm link redis
 
 That is, it first creates a global link, and then links the global
 installation target into your project's `node_modules` folder.
